@@ -1,7 +1,7 @@
 /* Corps de la page */
 
 body{
-    background-color: #000000;
+    background-color: #15213F;
     color : #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
@@ -15,68 +15,78 @@ h1{
 }
 
 h2{
-    color: #ffffff;
+    color: #38BDF8;
     text-align: center;
 }
 
 /* Présentation des flex */
 
 .item, .item1, .item2, .item3, .item4 {
-    background-color: #333333;
-    color: #ffffff;
+    background-color: #15213F;
+    color: #38BDF8;
     padding: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
     border-radius: 5px;
-    border : 1px solid #ffffff;
+    border : 1px solid #38BDF8;
 }
 
 .item_order{
-    background-color: #333333;
-    color: #ffffff;
+    background-color: #15213F;
+    color: #38BDF8;
     padding: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
     border-radius: 5px;
-    border : 1px solid #ffffff;
+    border : 1px solid #38BDF8;
     order: 1; /*Place l'élément en deuxième position dans le flux de flexbox*/
 }
 
 /* Divisions de test */
 
 .container{
-    background-color: #1a1a1a; 
+    background-color: #101B35; 
     margin-top: 8px;
     display: flex;
     justify-content: flex-start;
+    border-radius: 5px;
+    border : 1px solid #38BDF8;
 }
 
 .container1{
-    background-color: #1a1a1a; 
+    background-color: #101B35; 
     margin-top: 8px;
     display: flex;
     flex-direction: column;
+    border-radius: 5px;
+    border : 1px solid #38BDF8;
 }
 
 .container2{
-    background-color: #1a1a1a; 
+    background-color: #101B35; 
     margin-top: 8px;
     display: flex;
     flex-direction: column-reverse;
+    border-radius: 5px;
+    border : 1px solid #38BDF8;
 }
 
 .container3{
-    background-color: #1a1a1a; 
+    background-color: #101B35; 
     margin-top: 8px;
     display: flex;
     flex-wrap: wrap;
+    border-radius: 5px;
+    border : 1px solid #38BDF8;
 }
 
 .container4{
-    background-color: #1a1a1a; 
+    background-color: #101B35; 
     margin-top: 8px;
     display: flex;
     gap: 50px;
+    border-radius: 5px;
+    border : 1px solid #38BDF8;
 }
